@@ -79,7 +79,7 @@
     -webkit-animation: ani 5sforwards;
     animation: ani 5s forwards;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     content: url(../images/frame-bg1-mobile.png);
   }
   #bg-item3 {
