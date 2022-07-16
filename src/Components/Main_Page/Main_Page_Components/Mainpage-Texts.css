@@ -1,0 +1,703 @@
+.Texts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+#text {
+  position: absolute;
+  display: inline-block;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  white-space: nowrap;
+  right: 5vw;
+}
+
+#txtsection2 {
+  position: relative;
+  letter-spacing: -0.3vw;
+  font-size: 2.8vw;
+  top: 7.5vw;
+  left: 5.4vw;
+}
+
+#txtsId0 {
+  position: absolute;
+  color: white;
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  writing-mode: horizontal-tb;
+  font-size: 3vw;
+  letter-spacing: 0.8vw;
+  /* top: 7vh; */
+  top: 3.3vw;
+  right: 3vw;
+}
+
+#txtsId0extra {
+  position: relative;
+  color: white;
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  writing-mode: horizontal-tb;
+  font-size: 3vw;
+  top: 6.7vw;
+  left: -17.4vw;
+}
+
+#txtsId0-1 {
+  position: relative;
+  left: -0.4vw;
+}
+
+#Dletter {
+  position: relative;
+  display: inline-block;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  background-clip: text;
+  background-image: url(../../../images/txtsbg4.png);
+  color: transparent;
+  background-position-x: 0.2vw;
+  background-position-y: 0.2vw;
+  background-size: 3.3vw;
+  left: -1.5vw;
+}
+
+#Sharp01letter {
+  position: absolute;
+  font-size: 3vw;
+  color: red;
+  top: 3.3vw;
+  right: -0.65vw;
+}
+
+#S01letter {
+  color: transparent;
+  background-clip: text;
+  background-image: url(../../../images/txtsbg1.png);
+  -webkit-text-stroke: 0.25px white;
+  background-position-x: 0.2vw;
+  background-position-y: 0.2vw;
+  background-size: 3.3vw;
+}
+
+#Iletter {
+  display: inline-block;
+  position: relative;
+  color: rgb(242, 249, 38);
+  left: 1.45vw;
+}
+
+#N01letter {
+  color: transparent;
+  background-clip: text;
+  background-image: url(../../../images/txtsbg2.png);
+  background-position-x: 0vw;
+  background-position-y: 0.25vw;
+  background-size: 3.3vw;
+  position: relative;
+  top: -0.5vw;
+}
+
+#Gletter {
+  display: inline-block;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  position: relative;
+  color: transparent;
+  background-clip: text;
+  background-image: url(../../../images/txtsbg3.png);
+  left: 0.52vw;
+  background-position-x: 0.2vw;
+  background-position-y: 0.2vw;
+  background-size: 3.3vw;
+  top: -0.5vw;
+}
+
+#E02letter {
+  background-clip: text;
+  background-image: url(../../../images/txtsbg5.png);
+  color: transparent;
+  background-position-x: 0.1vw;
+  background-position-y: 0.1vw;
+  background-size: 3.3vw;
+  position: relative;
+  top: -1vw;
+}
+
+#Rletter {
+  position: relative;
+  display: inline-block;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  background-image: linear-gradient(
+    to left,
+    violet,
+    violet,
+    violet,
+    violet,
+    indigo,
+    rgb(108, 108, 223),
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-clip: text;
+  color: transparent;
+  left: 0.82vw;
+  top: -1vw;
+}
+
+#Dborder {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 0.2vw solid transparent;
+  left: -0.2vw;
+  top: 0.55vw;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: linear-gradient(
+      to bottom right,
+      #b827fc 0%,
+      #2c90fc 25%,
+      #b8fd33 50%,
+      #fec837 75%,
+      #fd1892 100%
+    )
+    border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+#E01letter {
+  -webkit-text-stroke: 0.12vw rgb(92, 243, 232);
+  text-shadow: 2px 0 5px #ffffff;
+  position: relative;
+  left: -0.5vw;
+}
+
+#txtsId0extra p {
+  margin: 0;
+  padding: 0;
+}
+
+#txtsId1::before {
+  content: "S";
+  animation: testtest1 8s forwards infinite;
+  animation-delay: 5s;
+}
+
+#txtsId2::before {
+  content: "E";
+  animation: testtest2 8s forwards infinite;
+  animation-delay: 5s;
+}
+
+#txtsId4::before {
+  content: "F";
+  animation: testtest4 8s forwards infinite;
+  animation-delay: 5s;
+}
+
+#txtsId5::before {
+  content: "T";
+  animation: 8s forwards infinite;
+  position: relative;
+  animation: testtest5 8s infinite;
+  animation-delay: 5s;
+}
+
+#txtsId5::after {
+  content: attr(id5fristletter);
+  position: relative;
+  opacity: 0;
+  margin-top: -3vw;
+  animation: testtest5extra 8s infinite;
+  animation-delay: 5s;
+}
+
+#txtsId6::before {
+  content: "A";
+  animation: testtest6 8s infinite;
+  transition: 3s;
+  animation-delay: 5s;
+}
+
+@keyframes testtest1 {
+  0% {
+    content: "S";
+  }
+  30% {
+    content: "S";
+  }
+  31% {
+    content: "เ";
+  }
+  31.5% {
+    content: "B";
+  }
+  40% {
+    content: "B";
+  }
+  40.5% {
+    content: "b";
+  }
+  50% {
+    content: "B";
+  }
+  51% {
+    content: "S";
+  }
+  55% {
+    content: "#";
+  }
+  55.5% {
+    content: "S";
+  }
+  57% {
+    content: "S";
+  }
+  57.5% {
+    content: "1";
+  }
+  65% {
+    content: "?";
+  }
+  65.5% {
+    content: "s";
+  }
+  100% {
+    content: "S";
+  }
+}
+
+@keyframes testtest2 {
+  0% {
+    content: "E";
+  }
+  30% {
+    content: "E";
+  }
+  33% {
+    content: "&";
+  }
+  33.5% {
+    content: "e";
+  }
+  50% {
+    content: "E";
+  }
+  51% {
+    content: "e";
+  }
+  51.5% {
+    content: "/";
+  }
+  55% {
+    content: "E";
+  }
+  60% {
+    content: "0";
+  }
+  65.2% {
+    content: "E";
+  }
+  80% {
+    content: "E";
+  }
+  81% {
+    content: "1";
+  }
+  81.5% {
+    content: "e";
+  }
+  100% {
+    content: "e";
+  }
+}
+
+@keyframes testtest4 {
+  0% {
+    content: "F";
+  }
+  30% {
+    content: "F";
+  }
+  31% {
+    content: "I";
+  }
+  60% {
+    content: "I";
+  }
+  100% {
+    content: "F";
+  }
+}
+
+@keyframes testtest5 {
+  0% {
+    left: 0px;
+  }
+  30% {
+    left: 0px;
+  }
+  60% {
+    left: 50px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes testtest5extra {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes testtest6 {
+  0% {
+    content: "A";
+  }
+  35% {
+    content: "A";
+  }
+  45% {
+    content: "F";
+  }
+  46% {
+    content: "f";
+  }
+  47% {
+    content: "F";
+  }
+  48% {
+    content: "ꟻ";
+  }
+  49% {
+    content: "f";
+  }
+  100% {
+    content: "A";
+  }
+}
+
+#txtsId7extra {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  writing-mode: horizontal-tb;
+  margin-top: -3.3vw;
+  left: -7vw;
+  letter-spacing: 0.5vw;
+}
+
+#txtsId7extra-2 {
+  position: relative;
+  margin-top: -3.3vw;
+  left: 2.3vw;
+}
+
+#text3 {
+  z-index: "";
+  color: white;
+  font-size: "";
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+#txtsId12 {
+  position: relative;
+  top: -8.5vh;
+  left: -11.5vh;
+}
+
+#text4 {
+  z-index: "";
+  color: white;
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-size: 6vh; */
+  /* left: 18.9vh; */
+  left: 10vw;
+  top: 9.9vh;
+}
+
+#Sharpletter {
+  font-family: "Orbitron", sans-serif;
+  color: red;
+  display: inline-block;
+  font-size: 4vh;
+  margin-top: -1.9vh;
+  position: relative;
+  top: 0.7vh;
+  left: 3.5vh;
+}
+
+#questionmark {
+  position: absolute;
+  transform: rotate(80deg);
+  top: -0.5vh;
+  font-size: 4vh;
+}
+
+#icon01 {
+  width: 3hh;
+  height: 3vh;
+}
+
+#txtsId13::before {
+  position: absolute;
+  /* font-size: 13vh; */
+  font-size: 7vw;
+  content: "Hello";
+  transition: 1s;
+  animation: helloanim 15s infinite 5s linear;
+  display: inline-block;
+}
+
+@keyframes helloanim {
+  0% {
+    content: "Hello";
+  }
+  20% {
+    content: "สวัสดี";
+    top: -4vh;
+  }
+  40% {
+    content: "Hej, hej!";
+    top: 0vh;
+  }
+  60% {
+    content: "Hola";
+  }
+  80% {
+    content: "Hello";
+  }
+}
+
+#txtsId14 {
+  position: absolute;
+  font-size: 3.5vw;
+  margin: 0;
+  /* left: -8vh;
+  margin-top: 12vh; */
+  /* left: -3vw;
+  margin-top: 6vw; */
+  top: 6vw;
+  left: -3vw;
+}
+
+#txtsId15 {
+  position: absolute;
+  /* font-size: 2.3vh; */
+  margin: 0;
+  /* margin-top: 3vh; */
+  /* margin-left: -1.5vh; */
+  font-size: 1.15vw;
+  top: 11vw;
+  margin-left: -0.75vw;
+}
+
+#txtsId15 p {
+  margin-top: -0.9vw;
+  position: relative;
+}
+
+#text5 {
+  z-index: "";
+  color: white;
+  font-size: 6vh;
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-style: italic;
+  position: relative;
+  left: -35vh;
+  top: -3.4vh;
+  white-space: nowrap;
+}
+
+#lorem {
+  color: white;
+  font-size: 0.25vw;
+  writing-mode: vertical-rl;
+  position: absolute;
+  /* top: 722px;
+  right: 103vh; */
+  /* transform: translate(-165%, -50%); */
+  left: 43vw;
+}
+
+@media screen and (min-width: 0px) and (max-width: 424px) {
+  #txtsId0 {
+    font-size: 5.5vw;
+    letter-spacing: 0.8vw;
+    top: 10vw;
+    right: 12vw;
+  }
+  #txtsection2 {
+    font-size: 5.5vw;
+    letter-spacing: -0.3vw;
+    top: 18vw;
+    left: 0.5vw;
+  }
+  #lorem {
+    writing-mode: horizontal-tb;
+    position: absolute;
+    /* top: 722px;
+    right: 103vh; */
+    /* transform: translate(-165%, -50%); */
+    left: 0vw;
+    top: 105vw;
+  }
+  #Sharp01letter {
+    position: absolute;
+    font-size: 6.5vw;
+    color: red;
+    top: 9.5vw;
+    right: 4vw;
+  }
+  #txtsId0extra {
+    top: 21vw;
+    left: -36vw;
+    transform: scale(1.8);
+  }
+  #txtsId7extra {
+    margin-top: -6.4vw;
+    left: -12.6vw;
+    letter-spacing: 0.5vw;
+  }
+
+  #txtsId7extra-2 {
+    margin-top: -6.9vw;
+    left: 4vw;
+  }
+  #txtsId13::before {
+    margin-top: 5vw;
+    font-size: 10vw;
+  }
+  #txtsId14 {
+    font-size: 7vw;
+    top: 17.5vw;
+    left: -1vw;
+  }
+  #txtsId15 {
+    font-size: 3vw;
+    top: 30vw;
+    margin-left: 3.2vw;
+  }
+  #txtsId15 p {
+    margin-top: -1.7vw;
+    position: relative;
+  }
+
+  #txtsId5::after {
+    margin-top: -6.5vw;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 499px) {
+  .Texts {
+    top: 6vw;
+  }
+  #lorem {
+    writing-mode: horizontal-tb;
+    position: absolute;
+    /* top: 722px;
+    right: 103vh; */
+    /* transform: translate(-165%, -50%); */
+    left: 0vw;
+    top: 50vw;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* Smallest @Desktop size */
+  .Texts {
+    top: 5vw;
+  }
+  #txtsId13::before {
+    margin-top: -5vw;
+    font-size: 12vw;
+  }
+  #lorem {
+    writing-mode: horizontal-tb;
+    position: absolute;
+    /* top: 722px;
+    right: 103vh; */
+    /* transform: translate(-165%, -50%); */
+    left: 0vw;
+    top: 50vw;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .Texts {
+    top: 3vw;
+  }
+  #txtsId13::before {
+    margin-top: -3vw;
+    font-size: 10vw;
+  }
+  #lorem {
+    writing-mode: horizontal-tb;
+    position: absolute;
+    /* top: 722px;
+    right: 103vh; */
+    /* transform: translate(-165%, -50%); */
+    left: 0vw;
+    top: 50vw;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1439px) {
+  .Texts {
+    top: 1vw;
+  }
+  #txtsId13::before {
+    margin-top: -2vw;
+    font-size: 8vw;
+  }
+  #lorem {
+    writing-mode: vertical-rl;
+    position: absolute;
+    /* top: 722px;
+    right: 103vh; */
+    /* transform: translate(-165%, -50%); */
+    left: 43.5vw;
+    margin-top: -0.9vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}

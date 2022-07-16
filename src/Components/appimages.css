@@ -1,0 +1,268 @@
+.App-Images-Container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+#frame {
+  /* position: absolute; */
+  position: fixed;
+  z-index: 300;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  -webkit-animation: ani 5sforwards;
+  animation: ani 5s forwards;
+  width: 100vw;
+  height: 100vh;
+  content: url(../images/frame-bg1.png);
+}
+
+#bg-item3 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  bottom: 6.5vh;
+  left: 4vw;
+}
+
+#bg-item4 {
+  position: absolute;
+  width: 2.4vw;
+  height: 2.4vw;
+  bottom: 6.5vh;
+  left: 7.25vw;
+}
+
+#bg-item5 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  bottom: 6.5vh;
+  left: 10.5vw;
+}
+
+#bg-item6 {
+  position: absolute;
+  width: 3.1vw;
+  height: 2.4vw;
+  bottom: 6.5vh;
+  left: 15vw;
+}
+
+#text6 {
+  z-index: "";
+  color: white;
+  font-size: 1.5vw;
+  display: inline-block;
+  font-style: italic;
+  position: absolute;
+  bottom: 7.2vh;
+  left: 19vw;
+  white-space: nowrap;
+}
+
+#bg-item7-1 {
+  position: absolute;
+  width: 2.5vw;
+  min-width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 0px) and (max-width: 424px) {
+  #frame {
+    /* position: absolute; */
+    position: fixed;
+    z-index: 300;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    -webkit-animation: ani 5sforwards;
+    animation: ani 5s forwards;
+    width: 100vw;
+    height: 100vh;
+    content: url(../images/frame-bg1-mobile.png);
+  }
+  #bg-item3 {
+    width: 7.8vw;
+    height: 7.8vw;
+    bottom: 6.5vh;
+    left: 10vw;
+  }
+
+  #bg-item4 {
+    width: 7.6vw;
+    height: 7.6vw;
+    bottom: 6.5vh;
+    left: 20.8vw;
+  }
+
+  #bg-item5 {
+    width: 7.8vw;
+    height: 7.8vw;
+    bottom: 6.5vh;
+    left: 31.7vw;
+  }
+
+  #bg-item6 {
+    width: 8.4vw;
+    height: 7.7vw;
+    bottom: 6.5vh;
+    left: 47vw;
+  }
+
+  #text6 {
+    font-size: 3.9vw;
+    bottom: 7.4vh;
+    left: 57vw;
+    color: black;
+    transition: 5s;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 499px) {
+  #bg-item3 {
+    width: 7.8vw;
+    height: 7.8vw;
+    bottom: 6.5vh;
+    left: 4vw;
+  }
+
+  #bg-item4 {
+    width: 7.6vw;
+    height: 7.6vw;
+    bottom: 6.5vh;
+    left: 13.8vw;
+  }
+
+  #bg-item5 {
+    width: 7.8vw;
+    height: 7.8vw;
+    bottom: 6.5vh;
+    left: 23.7vw;
+  }
+
+  #bg-item6 {
+    width: 8.4vw;
+    height: 7.7vw;
+    bottom: 6.5vh;
+    left: 38vw;
+  }
+
+  #text6 {
+    font-size: 3.9vw;
+    bottom: 7.4vh;
+    left: 49vw;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* Smallest @Desktop size */
+  #bg-item3 {
+    width: 7.8vw;
+    height: 7.8vw;
+    bottom: 6.5vh;
+    left: 4vw;
+  }
+
+  #bg-item4 {
+    width: 7.6vw;
+    height: 7.6vw;
+    bottom: 6.5vh;
+    left: 13.8vw;
+  }
+
+  #bg-item5 {
+    width: 7.8vw;
+    height: 7.8vw;
+    bottom: 6.5vh;
+    left: 23.7vw;
+  }
+
+  #bg-item6 {
+    width: 8.4vw;
+    height: 7.7vw;
+    bottom: 6.5vh;
+    left: 38vw;
+  }
+
+  #text6 {
+    font-size: 3.9vw;
+    bottom: 7.4vh;
+    left: 49vw;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  #bg-item3 {
+    width: 5.8vw;
+    height: 5.8vw;
+    bottom: 6.5vh;
+    left: 4vw;
+  }
+
+  #bg-item4 {
+    width: 5.6vw;
+    height: 5.6vw;
+    bottom: 6.5vh;
+    left: 10.8vw;
+  }
+
+  #bg-item5 {
+    width: 5.8vw;
+    height: 5.8vw;
+    bottom: 6.5vh;
+    left: 17.7vw;
+  }
+
+  #bg-item6 {
+    width: 6.4vw;
+    height: 5.7vw;
+    bottom: 6.5vh;
+    left: 28vw;
+  }
+
+  #text6 {
+    font-size: 2.9vw;
+    bottom: 7.4vh;
+    left: 36vw;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1439px) {
+  #bg-item3 {
+    width: 3.8vw;
+    height: 3.8vw;
+    bottom: 6.5vh;
+    left: 4vw;
+  }
+
+  #bg-item4 {
+    width: 3.6vw;
+    height: 3.6vw;
+    bottom: 6.5vh;
+    left: 8.8vw;
+  }
+
+  #bg-item5 {
+    width: 3.8vw;
+    height: 3.8vw;
+    bottom: 6.5vh;
+    left: 13.7vw;
+  }
+
+  #bg-item6 {
+    width: 4.4vw;
+    height: 3.7vw;
+    bottom: 6.5vh;
+    left: 21vw;
+  }
+
+  #text6 {
+    font-size: 1.9vw;
+    bottom: 7.4vh;
+    left: 26vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}

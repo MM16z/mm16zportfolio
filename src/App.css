@@ -1,0 +1,63 @@
+/* @font-face {
+  font-family: "Josefin Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap");
+} */
+
+.App-Container {
+  cursor: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@keyframes test3 {
+  0% {
+    transform: scaleX(-10%);
+  }
+  100% {
+    transform: scaleX(100%);
+  }
+}
+
+@keyframes test1 {
+  0% {
+    width: 25px;
+    height: 25px;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes test2 {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+  100% {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@-webkit-keyframes ani {
+  from {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes ani {
+  from {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}

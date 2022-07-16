@@ -1,0 +1,157 @@
+.Aboutme-Images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Aboutme-Images-Id1 {
+  z-index: 3;
+  position: absolute;
+  width: 50vh;
+  height: auto;
+  /* transform: rotate(180deg); */
+  /* left: 5vh; */
+  bottom: 0px;
+  right: 5vh;
+}
+
+.Aboutme-Images-Id2 {
+  z-index: 0;
+  position: absolute;
+  width: 11.6vw;
+  height: auto;
+  top: 5vw;
+  left: 6vw;
+  opacity: 0.9;
+}
+
+.Aboutme-Images-Id3 {
+  position: absolute;
+  width: 20vh;
+  height: auto;
+  top: 82%;
+  left: -1.2%;
+  opacity: 0.9;
+}
+
+.Aboutme-Images-Id4 {
+  position: absolute;
+  height: 100vh;
+  min-height: 400px;
+  width: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50.5%, -50%);
+}
+
+.Aboutme-Images-Id4-1 {
+  position: absolute;
+  display: none;
+  content: url(../../../images/centerline-mobile.png);
+}
+
+.Aboutme-Images-Id5 {
+  position: absolute;
+  width: 100vw;
+  /* min-width: 1000px; */
+}
+
+#dancetilldead {
+  position: absolute;
+  z-index: 2;
+  right: 17.8vh;
+  bottom: 17vh;
+  width: 24.2vh;
+  height: auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 424px) {
+  .Aboutme-Images-Id1 {
+    z-index: 3;
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    /* transform: rotate(180deg); */
+    /* left: 5vh; */
+    bottom: 0px;
+    right: 2vw;
+  }
+  .Aboutme-Images-Id2 {
+    width: 25vw;
+    height: auto;
+    top: 6.5vh;
+    left: 9vw;
+    opacity: 0.9;
+  }
+  #dancetilldead {
+    position: absolute;
+    z-index: 2;
+    right: 17vw;
+    bottom: 20.5vw;
+    width: 30vw;
+    height: auto;
+  }
+  .Aboutme-Images-Id3 {
+    position: absolute;
+    min-width: 30vw;
+    height: auto;
+    left: -6vw;
+    top: 82.5vh;
+    opacity: 0.9;
+  }
+  .Aboutme-Images-Id4 {
+    display: none;
+  }
+  .Aboutme-Images-Id4-1 {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Aboutme-Images-Id5 {
+    position: absolute;
+    width: 80vw;
+    /* min-width: 270px; */
+    top: 3.5vh;
+    left: 9vw;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 499px) {
+  /* Bigest @Mobile size */
+  .Aboutme-Images-Id2 {
+    z-index: 0;
+    position: absolute;
+    width: 11.6vw;
+    height: auto;
+    top: 8vw;
+    left: 6vw;
+    opacity: 0.9;
+  }
+  
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* Smallest @Desktop size */
+  
+.Aboutme-Images-Id2 {
+  z-index: 0;
+  position: absolute;
+  width: 11.6vw;
+  height: auto;
+  top: 7vw;
+  left: 6vw;
+  opacity: 0.9;
+}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+}
+
+@media screen and (min-width: 900px) and (max-width: 1439px) {
+}
+
+@media screen and (min-width: 1440px) {
+}

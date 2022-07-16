@@ -1,0 +1,97 @@
+.Images-Items-Container {
+  pointer-events: none;
+}
+
+#bg-item1 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  opacity: 1;
+  top: 0%;
+  left: 20%;
+}
+
+#bg-item1-2 {
+  position: absolute;
+  width: 17vw;
+  height: 17vw;
+  opacity: 0.9;
+  top: 30%;
+  left: 50%;
+}
+
+#bg-item1-3 {
+  position: absolute;
+  width: 17vw;
+  height: 17vw;
+  opacity: 0.9;
+  top: 27%;
+  left: 10%;
+}
+
+#bg-item1-4 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  top: -2.5%;
+  left: -3%;
+}
+
+#bg-item1-5 {
+  position: absolute;
+  width: 140vh;
+  height: 140vh;
+  bottom: -70vh;
+  right: -6vw;
+  opacity: 0.95;
+}
+
+#bg-item2 {
+  position: absolute;
+  width: 60vw;
+  height: 60vw;
+  opacity: 0.05;
+  /* top: 30%; */
+  bottom: -54%;
+  left: -28.5%;
+  transform: rotate(0deg);
+}
+
+@media screen and (min-width: 0px) and (max-width: 424px) {
+  #bg-item1-5 {
+    position: absolute;
+    width: 180vw;
+    height: 180vw;
+    bottom: -90vw;
+    right: -40vw;
+    opacity: 0.95;
+  }
+  #bg-item1-4 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    top: -1.5%;
+    left: -7%;
+  }
+  
+}
+
+@media screen and (min-width: 425px) and (max-width: 499px) {
+ /* Bigest @Mobile size */
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* Smallest @Desktop size */
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1439px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+}

@@ -1,0 +1,136 @@
+.navs-Container {
+  /* font-size: 2.5rem; */
+  font-size: 2vw;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 320;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.homenav {
+  position: absolute;
+  /* right: 40px;
+  top: 8px; */
+  top: 1vw;
+  right: 2.5vw;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  display: inline-block;
+  transition: 1s;
+  cursor: none;
+}
+
+.homenav:hover {
+  /* font-size: 2.8rem; */
+  font-size: 2.3vw;
+  /* right: 10px; */
+  right: 1vw;
+  text-shadow: 1px 0 3px #ffffff;
+}
+
+.homenav::before {
+  -webkit-text-stroke: transparent;
+  content: attr(data-text-home);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(to left, #ffffff, rgb(67, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s;
+}
+
+.homenav:hover::before {
+  width: 100%;
+}
+
+.aboutmenav {
+  color: rgb(131, 249, 249);
+  position: absolute;
+  /* right: 8px;
+  top: 40px; */
+  top: 2.5vw;
+  right: 1vw;
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  display: inline-block;
+  transition: 1s;
+  cursor: none;
+}
+
+.aboutmenav:hover {
+  color: white;
+  /* top: 5px; */
+  top: 0.8vw;
+}
+
+#text-spanid1 {
+  color: white;
+  transition: 2s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 424px) {
+  /* Smallet @Mobile size */
+  .navs-Container {
+    /* font-size: 2.5rem; */
+    font-size: 6vw;
+  }
+  .homenav {
+    top: 3vw;
+    right: 8.5vw;
+  }
+  
+  .homenav:hover {
+    font-size: 8.3vw;
+    right: 1vw;
+  }
+
+  .aboutmenav {
+    top: 8.5vw;
+    right: 2.6vw;
+  }
+  
+  .aboutmenav:hover {
+    top: 0.8vw;
+  }
+ }
+
+@media screen and (min-width: 425px) and (max-width: 499px) {
+  /* Bigest @Mobile size */
+  .homenav {
+    top: 4.5vw;
+  }
+  .aboutmenav {
+    top: 6vw;
+  }
+ }
+ 
+ @media screen and (min-width: 500px) and (max-width: 599px) {
+   /* Smallest @Desktop size */
+   .homenav {
+    top: 4vw;
+  }
+  .aboutmenav {
+    top: 5.5vw;
+  }
+ }
+ 
+ @media screen and (min-width: 600px) and (max-width: 899px) {
+  .homenav {
+    top: 2.5vw;
+  }
+  .aboutmenav {
+    top: 4vw;
+  }
+ }
+ 
+ @media screen and (min-width: 900px) and (max-width: 1439px) {
+ 
+ 
+ @media screen and (min-width: 1440px) {
+ }
+}
