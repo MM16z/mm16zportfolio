@@ -15,17 +15,11 @@ function App() {
   const location = useLocation();
   const circleRef = useRef(null);
   const [contactcolor, setContactcolor] = useState(null);
-  const [gitSrc, setgitSrc] = useState(null);
+  const [gitSrc, setgitSrc] = useState(
+    require("../src/images/githublogolight.png")
+  );
 
-  useEffect(() => {
-    if (location.pathname.includes("/aboutme")) {
-      setContactcolor("white");
-      setgitSrc(require("../src/images/githublogolight.png"));
-    } else {
-      setContactcolor("");
-      setgitSrc(require("../src/images/githublogo.png"));
-    }
-  }, [location]);
+  useEffect(() => {}, []);
 
   return (
     <Appcontext.Provider value={{ circleRef }}>

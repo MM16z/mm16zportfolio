@@ -34,6 +34,7 @@
 }
 
 #bg-item5 {
+  /* content: url(../images/githublogolight.png); */
   position: absolute;
   width: 2.5vw;
   height: 2.5vw;
@@ -78,8 +79,10 @@
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
     -webkit-animation: ani 5sforwards;
     animation: ani 5s forwards;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
+    width: 100%;
+    height: 100%;
     content: url(../images/frame-bg1-mobile.png);
   }
   #bg-item3 {
@@ -262,7 +265,4 @@
     bottom: 7.4vh;
     left: 26vw;
   }
-}
-
-@media screen and (min-width: 1440px) {
 }

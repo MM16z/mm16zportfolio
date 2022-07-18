@@ -20,7 +20,17 @@ function Appimages(probs) {
         src={require("../images/twitterlogo.png")}
         draggable="false"
       ></img>
-      <img id="bg-item5" src={gitImgSrc} draggable="false"></img>
+      <img
+        id="bg-item5"
+        // src={require("../images/githublogolight.png")}
+        draggable="false"
+        src={gitImgSrc}
+      ></img>
+           <img
+        id="bg-item5-1"
+        // src={require("../images/githublogolight.png")}
+        draggable="false"
+      ></img>
       <img
         id="bg-item6"
         src={require("../images/gmaillogo.png")}

@@ -17,7 +17,7 @@ function AboutmeTexts() {
           </p>
           <p id="worktxtsId5-3">
             <p id="worktxtsId5-3-1">
-              Intermediate<span style={{ fontSize: "0.75vw" }}> (Skills)</span>
+              Intermediate<span style={{ fontSize: "1.75vw" }}> (Skills)</span>
             </p>
             <p className="txtfontvw1" id="worktxtsId5-3-2">
               Dart ,Flutter ,Bootstrap // Figma
