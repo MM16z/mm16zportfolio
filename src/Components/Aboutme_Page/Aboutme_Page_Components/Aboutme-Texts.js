@@ -73,6 +73,7 @@ function AboutmeTexts() {
                       top: "-2vw",
                     }}
                     href="https://www.youtube.com/channel/UC72pfOuUuHXTAEEPM6jmxxw"
+                    target="_blank"
                   >
                     Youtube
                   </a>
@@ -81,7 +82,9 @@ function AboutmeTexts() {
               <p style={{ fontSize: "2vw", paddingTop: "1vw" }}>
                 <span className="workreficon">🎨 {"=>"} </span>
                 <span>
-                  <a href="https://www.deviantart.com/imm0rz">Deviantart</a>
+                  <a href="https://www.deviantart.com/imm0rz" target="_blank">
+                    Deviantart
+                  </a>
                 </span>
               </p>
             </p>
