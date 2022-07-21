@@ -11,6 +11,7 @@
     rgb(1, 30, 32) 50%,
     rgb(14, 21, 78) 100%
   );
+  pointer-events: none;
 }
 
 #star {

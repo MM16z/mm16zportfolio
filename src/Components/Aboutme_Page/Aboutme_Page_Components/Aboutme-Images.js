@@ -25,11 +25,6 @@ function AboutmeImages() {
         draggable="false"
       ></img>
       <img className="Aboutme-Images-Id4-1"></img>
-       {/* <img
-        className="Aboutme-Images-Id5"
-        src={require("../../../images/exlinebg.png")}
-        draggable="false"
-      ></img> */}
       <video id="dancetilldead" autoPlay loop muted>
         <source
           src={require("../../../images/Dancetilldead.mp4")}

@@ -41,7 +41,7 @@ function Navmenu(probs) {
           <span id="text-spanid1" ref={textspan1}>
             ?
           </span>{" "}
-          :D
+          <span style={{position:"absolute" ,paddingTop:"1vw"}}>{":D"}</span>
         </div>
       </Link>
     </div>

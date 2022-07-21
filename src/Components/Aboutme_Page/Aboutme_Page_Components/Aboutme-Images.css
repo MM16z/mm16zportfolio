@@ -9,8 +9,6 @@
   position: absolute;
   width: 50vh;
   height: auto;
-  /* transform: rotate(180deg); */
-  /* left: 5vh; */
   bottom: 0px;
   right: 5vh;
 }
@@ -59,10 +57,10 @@
 #dancetilldead {
   position: absolute;
   z-index: 2;
-  right: 17.8vh;
-  bottom: 17vh;
   width: 24.2vh;
   height: auto;
+  right: 17.8vh;
+  bottom: 16.8vh;
 }
 
 @media screen and (min-width: 0px) and (max-width: 424px) {
@@ -130,21 +128,19 @@
     left: 6vw;
     opacity: 0.9;
   }
-  
 }
 @media screen and (min-width: 500px) and (max-width: 599px) {
   /* Smallest @Desktop size */
-  
-.Aboutme-Images-Id2 {
-  z-index: 0;
-  position: absolute;
-  width: 11.6vw;
-  height: auto;
-  top: 7vw;
-  left: 6vw;
-  opacity: 0.9;
-}
 
+  .Aboutme-Images-Id2 {
+    z-index: 0;
+    position: absolute;
+    width: 11.6vw;
+    height: auto;
+    top: 7vw;
+    left: 6vw;
+    opacity: 0.9;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 899px) {

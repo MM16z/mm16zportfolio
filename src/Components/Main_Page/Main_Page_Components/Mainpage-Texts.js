@@ -49,9 +49,11 @@ function MainpageTexts() {
       </div>
       <div id="text4">
         <span id="txtsId13"></span>
-        <p id="txtsId14">you! ;)</p>
+        <p id="txtsId14">you! :)</p>
         <p id="txtsId15">
-          <p style={{marginLeft:"-1vw"}}>Hi again, My name is Tatpon Auyana,</p>
+          <p style={{ marginLeft: "-1vw" }}>
+            Hi again, My name is Tatpon Auyana,
+          </p>
           <p>
             I'm a junior <span id="questionmark">?</span>{" "}
             <span id="Sharpletter">
@@ -63,9 +65,13 @@ function MainpageTexts() {
             </span>
           </p>
           <p style={{ left: "-5vw" }}>
-            Also interested in art/graphic/music
+            I love/interest in web,art,music,graphic,games {"=>"} Design ;)
           </p>
-          <p style={{ left: "2.3vw" ,top:"0.2vw"}}>Based in Thailand , Nan</p>
+          <p style={{ left: "2.3vw", top: "0.3vw" }}>Based in Thailand , Nan</p>
+          <p id="checkout">
+            In the upper right corner there is a button about something?. Maybe
+            you should try exploring?!
+          </p>
         </p>
       </div>
       <p id="lorem">

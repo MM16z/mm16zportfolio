@@ -7,20 +7,36 @@ function AboutmeTexts() {
       <div className="leftpanel">
         <p id="worktxtsId3">TATAPON AUYANA</p>
         <p id="worktxtsId4">
-          <p>?age {"=>"} 23</p>
+          <p>
+            ?age {"=>"} 23
+            <span
+              style={{
+                fontSize: "0.5px",
+                marginLeft: "2vw",
+                fontFamily: "monospace",
+                opacity: "0.5",
+              }}
+            >
+              do we need this?
+            </span>
+          </p>
           <p style={{ marginTop: "-1.5vw" }}>?sex {"=>"} Male</p>
+          <p style={{ marginTop: "-1.5vw" }}>Species? {"=>"} CAT!!</p>
+          <p id="aboutmebio">
+            <p>I'm probably the type that likes something new ,aesthetic.</p>
+            <p>like to look it in depth ,Maybe as they call it duck?</p>
+            <p>Anyway, I'll give it a try :)</p>
+          </p>
         </p>
         <p id="worktxtsId5">
           <p id="worktxtsId5-1">Skills</p>
           <p id="worktxtsId5-2">
-            Html5 ,Css ,Javascript ,ReactJs ,Jquery // AdobeXD ,Git
+            Html5 ,Css ,Javascript ,ReactJs // AdobeXD ,Git ,Github
           </p>
           <p id="worktxtsId5-3">
-            <p id="worktxtsId5-3-1">
-              Intermediate<span style={{ fontSize: "1.75vw" }}> (Skills)</span>
-            </p>
+            <p id="worktxtsId5-3-1">Intermediate</p>
             <p className="txtfontvw1" id="worktxtsId5-3-2">
-              Dart ,Flutter ,Bootstrap // Figma
+              Dart ,Flutter ,Jquery, Bootstrap // Figma
             </p>
           </p>
           <p id="worktxtsId5-4">
@@ -33,6 +49,43 @@ function AboutmeTexts() {
         <span id="works">
           <p id="worktxtsId1">WORKS</p>
           <p id="worktxtsId2">Incomimg....</p>
+          <p id="workref">
+            Checkout my other work!
+            <p style={{ paddingTop: "2vw" }}>
+              <p style={{ fontSize: "2vw" }}>
+                <span className="workreficon">🎶 {"=>"} </span>
+                <span>
+                  <iframe
+                    id="ytembed"
+                    src="https://www.youtube.com/embed/x_pjxkfop_s"
+                    title="Shaped - IMM0Rz Fl mobile (trap)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </span>
+                <span>
+                  {" "}
+                  <a
+                    style={{
+                      fontSize: "1.2vw",
+                      position: "relative",
+                      top: "-2vw",
+                    }}
+                    href="https://www.youtube.com/channel/UC72pfOuUuHXTAEEPM6jmxxw"
+                  >
+                    Youtube
+                  </a>
+                </span>
+              </p>
+              <p style={{ fontSize: "2vw", paddingTop: "1vw" }}>
+                <span className="workreficon">🎨 {"=>"} </span>
+                <span>
+                  <a href="https://www.deviantart.com/imm0rz">Deviantart</a>
+                </span>
+              </p>
+            </p>
+          </p>
         </span>
       </div>
     </div>

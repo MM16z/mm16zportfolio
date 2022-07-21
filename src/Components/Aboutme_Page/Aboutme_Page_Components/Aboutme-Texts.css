@@ -2,11 +2,16 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: "";
   color: white;
   display: inline-block;
   font-family: "Space Mono", monospace;
   white-space: nowrap;
+}
+
+#ytembed {
+  position: relative;
+  width: 10vw;
+  height: 5vw;
 }
 
 #works {
@@ -16,6 +21,13 @@
 #works p {
   margin: 0;
   padding: 0;
+}
+#aboutmebio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7vw;
+}
+#aboutmebio > p {
+  margin: 0;
 }
 
 #worktxtsId1 {
@@ -95,12 +107,21 @@
   font-size: 2.3vw;
   top: 29vw;
   left: 21.5vw;
-
-  /*Responsive @800px later */
 }
 
 .txtfontvw1 {
   font-size: 0.9vw;
+}
+
+#workref {
+  font-size: 0.9vw;
+  position: absolute;
+  bottom: -90vh;
+  left: 51.2vw;
+}
+
+#workref p span a {
+  color: white;
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
@@ -109,7 +130,7 @@
   }
 
   #worktxtsId5-2::after {
-    content: "Html5 ,Css ,Javascript ,ReactJs \a ,Jquery // AdobeXD ,Gits";
+    content: "Html5 ,Css ,Javascript ,ReactJs \a // AdobeXD ,Git ,Github";
     position: absolute;
     font-size: 0.9vw;
     display: block;
@@ -126,8 +147,27 @@
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  #aboutmebio {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.5vw;
+    writing-mode: vertical-rl;
+    margin-top: -5vw;
+    margin-left: 17.2vw;
+  }
+}
+
 @media screen and (min-width: 0px) and (max-width: 424px) {
   /* Smallest @Mobile size */
+  #aboutmebio {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1vw;
+    transform: scale(0.75);
+    margin-left: -14vw;
+  }
+  #aboutmebio > p {
+    margin: 0;
+  }
   #worktxtsId1 {
     font-size: 5vw;
     top: 51vh;
@@ -167,7 +207,7 @@
   }
 
   #worktxtsId5-2::after {
-    content: "Html5 ,Css ,Javascript ,ReactJs \a ,Jquery // AdobeXD ,Gits";
+    content: "Html5 ,Css ,Javascript ,ReactJs \a ,Jquery // AdobeXD ,Git ,Github";
     position: absolute;
     /* font-size: 0.9vw; */
     font-size: 2.4vw;
@@ -193,11 +233,6 @@
     top: 7.5vw;
   }
 
-  /* #txtfontvw1 {
-    position: absolute;
-    top: 2.5vw;
-  } */
-
   #worktxtsId5-4 {
     font-size: 5vw;
     top: 60vw;
@@ -207,7 +242,23 @@
     /* font-size: 0.7vw; */
     font-size: 2.4vw;
   }
+  #workref {
+    font-size: 0.9vw;
+    position: absolute;
+    bottom: -87.5vh;
+    left: 8.2vw;
+  }
+  #aboutmebio {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.7vw;
+    margin-left: 42vw;
+    margin-top: -30vw;
+  }
+  .workreficon {
+    font-size: 5vw;
+  }
 }
+
 @media screen and (min-width: 425px) and (max-width: 499px) {
   /* Bigest @Mobile size */
   #worktxtsId5-3-1 {

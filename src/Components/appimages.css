@@ -1,7 +1,5 @@
 .App-Images-Container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: relative;
   z-index: 5;
 }
 
@@ -15,38 +13,46 @@
   width: 100vw;
   height: 100vh;
   content: url(../images/frame-bg1.png);
+  pointer-events: none;
 }
 
 #bg-item3 {
+  transition: 0.7s;
   position: absolute;
   width: 2.5vw;
   height: 2.5vw;
-  bottom: 6.5vh;
+  /* bottom: 6.5vh; */
+  bottom: -93.5vh;
   left: 4vw;
 }
 
 #bg-item4 {
+  transition: 0.7s;
   position: absolute;
   width: 2.4vw;
   height: 2.4vw;
-  bottom: 6.5vh;
+  /* bottom: 6.5vh; */
+  bottom: -93.5vh;
   left: 7.25vw;
 }
 
 #bg-item5 {
-  /* content: url(../images/githublogolight.png); */
+  transition: 0.7s;
   position: absolute;
   width: 2.5vw;
   height: 2.5vw;
-  bottom: 6.5vh;
+  /* bottom: 6.5vh; */
+  bottom: -93.5vh;
   left: 10.5vw;
 }
 
 #bg-item6 {
+  transition: 0.7s;
   position: absolute;
   width: 3.1vw;
   height: 2.4vw;
-  bottom: 6.5vh;
+  /* bottom: 6.5vh; */
+  bottom: -93.5vh;
   left: 15vw;
 }
 
@@ -57,18 +63,18 @@
   display: inline-block;
   font-style: italic;
   position: absolute;
-  bottom: 7.2vh;
+  /* bottom: 7.2vh; */
+  bottom: -92.5vh;
   left: 19vw;
   white-space: nowrap;
 }
 
-#bg-item7-1 {
-  position: absolute;
-  width: 2.5vw;
-  min-width: 50px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+#bg-item3:hover,
+#bg-item4:hover,
+#bg-item5:hover,
+#bg-item6:hover {
+  padding-bottom: 3vh;
+  transform: rotate(15deg);
 }
 
 @media screen and (min-width: 0px) and (max-width: 424px) {
@@ -88,34 +94,34 @@
   #bg-item3 {
     width: 7.8vw;
     height: 7.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 10vw;
   }
 
   #bg-item4 {
     width: 7.6vw;
     height: 7.6vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 20.8vw;
   }
 
   #bg-item5 {
     width: 7.8vw;
     height: 7.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 31.7vw;
   }
 
   #bg-item6 {
     width: 8.4vw;
     height: 7.7vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 47vw;
   }
 
   #text6 {
     font-size: 3.9vw;
-    bottom: 7.4vh;
+    bottom: -92.5vh;
     left: 57vw;
     color: black;
     transition: 5s;
@@ -126,34 +132,34 @@
   #bg-item3 {
     width: 7.8vw;
     height: 7.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 4vw;
   }
 
   #bg-item4 {
     width: 7.6vw;
     height: 7.6vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 13.8vw;
   }
 
   #bg-item5 {
     width: 7.8vw;
     height: 7.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 23.7vw;
   }
 
   #bg-item6 {
     width: 8.4vw;
     height: 7.7vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 38vw;
   }
 
   #text6 {
     font-size: 3.9vw;
-    bottom: 7.4vh;
+    bottom: -92.5vh;
     left: 49vw;
   }
 }
@@ -163,34 +169,34 @@
   #bg-item3 {
     width: 7.8vw;
     height: 7.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 4vw;
   }
 
   #bg-item4 {
     width: 7.6vw;
     height: 7.6vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 13.8vw;
   }
 
   #bg-item5 {
     width: 7.8vw;
     height: 7.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 23.7vw;
   }
 
   #bg-item6 {
     width: 8.4vw;
     height: 7.7vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 38vw;
   }
 
   #text6 {
     font-size: 3.9vw;
-    bottom: 7.4vh;
+    bottom: -92.5vh;
     left: 49vw;
   }
 }
@@ -199,34 +205,34 @@
   #bg-item3 {
     width: 5.8vw;
     height: 5.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 4vw;
   }
 
   #bg-item4 {
     width: 5.6vw;
     height: 5.6vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 10.8vw;
   }
 
   #bg-item5 {
     width: 5.8vw;
     height: 5.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 17.7vw;
   }
 
   #bg-item6 {
     width: 6.4vw;
     height: 5.7vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 28vw;
   }
 
   #text6 {
     font-size: 2.9vw;
-    bottom: 7.4vh;
+    bottom: -92.5vh;
     left: 36vw;
   }
 }
@@ -235,34 +241,34 @@
   #bg-item3 {
     width: 3.8vw;
     height: 3.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 4vw;
   }
 
   #bg-item4 {
     width: 3.6vw;
     height: 3.6vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 8.8vw;
   }
 
   #bg-item5 {
     width: 3.8vw;
     height: 3.8vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 13.7vw;
   }
 
   #bg-item6 {
     width: 4.4vw;
     height: 3.7vw;
-    bottom: 6.5vh;
+    bottom: -93.5vh;
     left: 21vw;
   }
 
   #text6 {
     font-size: 1.9vw;
-    bottom: 7.4vh;
+    bottom: -92.5vh;
     left: 26vw;
   }
 }

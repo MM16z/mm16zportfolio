@@ -558,6 +558,18 @@
   left: 43vw;
 }
 
+#checkout {
+  font-family: sans-serif;
+  left: 7vw;
+  top: 0.6vw;
+  font-size: 0.2vw;
+  opacity: 0.8;
+}
+
+#checkout::after {
+  display: none;
+}
+
 @media screen and (min-width: 0px) and (max-width: 424px) {
   #txtsId0 {
     font-size: 5.5vw;
@@ -574,14 +586,11 @@
   #lorem {
     writing-mode: horizontal-tb;
     position: absolute;
-    /* top: 722px;
-    right: 103vh; */
-    /* transform: translate(-165%, -50%); */
     left: 0vw;
     top: 105vw;
     font-size: 2.8vw;
   }
-  #lorem p{
+  #lorem p {
     margin: 0;
     padding: 0;
   }
@@ -630,6 +639,22 @@
   #txtsId5::after {
     margin-top: -6.5vw;
   }
+
+  #checkout {
+    font-size: 0;
+    left: -4.5vw;
+    top: 6vw;
+  }
+  #checkout::after {
+    content: "In the upper right corner there is a button about something?.\a                Maybe you should try exploring?!";
+    display: block;
+    white-space: pre;
+    left: -6vw;
+    top: 0.6vw;
+    font-size: 0.2vw;
+    opacity: 0.8;
+  }
+
 }
 
 @media screen and (min-width: 425px) and (max-width: 499px) {
@@ -639,9 +664,6 @@
   #lorem {
     writing-mode: horizontal-tb;
     position: absolute;
-    /* top: 722px;
-    right: 103vh; */
-    /* transform: translate(-165%, -50%); */
     left: 0vw;
     top: 50vw;
   }
@@ -659,9 +681,6 @@
   #lorem {
     writing-mode: horizontal-tb;
     position: absolute;
-    /* top: 722px;
-    right: 103vh; */
-    /* transform: translate(-165%, -50%); */
     left: 0vw;
     top: 50vw;
   }
@@ -678,9 +697,6 @@
   #lorem {
     writing-mode: horizontal-tb;
     position: absolute;
-    /* top: 722px;
-    right: 103vh; */
-    /* transform: translate(-165%, -50%); */
     left: 0vw;
     top: 50vw;
   }
@@ -697,9 +713,6 @@
   #lorem {
     writing-mode: vertical-rl;
     position: absolute;
-    /* top: 722px;
-    right: 103vh; */
-    /* transform: translate(-165%, -50%); */
     left: 43.5vw;
     margin-top: -0.9vw;
   }

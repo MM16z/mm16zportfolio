@@ -15,18 +15,20 @@ function App() {
   const location = useLocation();
   const circleRef = useRef(null);
   const [contactcolor, setContactcolor] = useState(null);
-  const [gitSrc, setgitSrc] = useState(
-    require("../src/images/githublogolight.png")
-  );
 
   useEffect(() => {}, []);
 
   return (
     <Appcontext.Provider value={{ circleRef }}>
       <div className="App-Container">
-        <Appimages color={contactcolor} gitImgSrc={gitSrc} />
+        <Appimages color={contactcolor}/>
         <CustomCursor ref={circleRef} />
         <Navmenu />
+        <img
+          id="fkingcenter"
+          src={require("./images/center.png")}
+          draggable="false"
+        ></img>
         <AnimatePresence initial={false}>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<MainPage />} />
