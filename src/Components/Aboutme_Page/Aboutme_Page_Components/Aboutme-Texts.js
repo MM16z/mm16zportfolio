@@ -50,7 +50,7 @@ function AboutmeTexts() {
           <p id="worktxtsId1">WORKS</p>
           <p id="worktxtsId2">Incomimg....</p>
           <p id="workref">
-            Checkout my other work!
+            <span id="checkoutbio">Checkout my other work!</span>
             <p style={{ paddingTop: "2vw" }}>
               <p style={{ fontSize: "2vw" }}>
                 <span className="workreficon">🎶 {"=>"} </span>
@@ -67,6 +67,7 @@ function AboutmeTexts() {
                 <span>
                   {" "}
                   <a
+                    className="workreftexts"
                     style={{
                       fontSize: "1.2vw",
                       position: "relative",
@@ -82,7 +83,11 @@ function AboutmeTexts() {
               <p style={{ fontSize: "2vw", paddingTop: "1vw" }}>
                 <span className="workreficon">🎨 {"=>"} </span>
                 <span>
-                  <a href="https://www.deviantart.com/imm0rz" target="_blank">
+                  <a
+                    className="workreftexts"
+                    href="https://www.deviantart.com/imm0rz"
+                    target="_blank"
+                  >
                     Deviantart
                   </a>
                 </span>

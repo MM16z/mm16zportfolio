@@ -64,7 +64,7 @@
   position: absolute;
   display: inline-block;
   left: -15.5vw;
-  top: 1vw;
+  top: 1.5vw;
 }
 
 #worktxtsId5 p {
@@ -161,21 +161,25 @@
   /* Smallest @Mobile size */
   #aboutmebio {
     font-family: "Courier New", Courier, monospace;
-    font-size: 1vw;
-    transform: scale(0.75);
+    font-size: 2.6vw;
+    /* transform: scale(0.75); */
     margin-left: -14vw;
   }
   #aboutmebio > p {
     margin: 0;
+    font-size: 2.6vw;
+    margin-top: 12vw;
   }
   #worktxtsId1 {
+    position: fixed;
     font-size: 5vw;
-    top: 51vh;
+    top: 51%;
     left: 10vw;
   }
   #worktxtsId2 {
+    position: fixed;
     font-size: 3vw;
-    top: 71.5vh;
+    top: 70%;
     left: 42vw;
   }
 
@@ -243,10 +247,13 @@
     font-size: 2.4vw;
   }
   #workref {
-    font-size: 0.9vw;
-    position: absolute;
-    bottom: -87.5vh;
+    /* font-size: 0.9vw; */
+    position: fixed;
+    top: 76%;
     left: 8.2vw;
+  }
+  #checkoutbio {
+    font-size: 2.5vw;
   }
   #aboutmebio {
     font-family: "Courier New", Courier, monospace;
@@ -256,6 +263,9 @@
   }
   .workreficon {
     font-size: 5vw;
+  }
+  .workreftexts {
+    font-size: 2.3vw;
   }
 }
 

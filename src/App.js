@@ -16,12 +16,18 @@ function App() {
   const circleRef = useRef(null);
   const [contactcolor, setContactcolor] = useState(null);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (location.pathname.includes("/aboutme")) {
+      setContactcolor("white");
+    } else {
+      setContactcolor("");
+    }
+  }, [location]);
 
   return (
     <Appcontext.Provider value={{ circleRef }}>
       <div className="App-Container">
-        <Appimages color={contactcolor}/>
+        <Appimages color={contactcolor} />
         <CustomCursor ref={circleRef} />
         <Navmenu />
         <img

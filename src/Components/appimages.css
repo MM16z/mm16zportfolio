@@ -92,36 +92,41 @@
     content: url(../images/frame-bg1-mobile.png);
   }
   #bg-item3 {
+    position: fixed;
     width: 7.8vw;
     height: 7.8vw;
-    bottom: -93.5vh;
+    top: 89%;
     left: 10vw;
   }
 
   #bg-item4 {
     width: 7.6vw;
     height: 7.6vw;
-    bottom: -93.5vh;
+    position: fixed;
+    top: 89%;
     left: 20.8vw;
   }
 
   #bg-item5 {
     width: 7.8vw;
     height: 7.8vw;
-    bottom: -93.5vh;
+    position: fixed;
+    top: 89%;
     left: 31.7vw;
   }
 
   #bg-item6 {
     width: 8.4vw;
     height: 7.7vw;
-    bottom: -93.5vh;
+    position: fixed;
+    top: 89%;
     left: 47vw;
   }
 
   #text6 {
     font-size: 3.9vw;
-    bottom: -92.5vh;
+    position: fixed;
+    top: 89.3%;
     left: 57vw;
     color: black;
     transition: 5s;
