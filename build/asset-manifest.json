@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.611d2698.css",
-    "main.js": "/static/js/main.61f8d6e9.js",
+    "main.css": "/static/css/main.ea797298.css",
+    "main.js": "/static/js/main.8ef76726.js",
     "static/js/787.928e177b.chunk.js": "/static/js/787.928e177b.chunk.js",
-    "static/media/Dancetilldead.mp4": "/static/media/Dancetilldead.6acc3d8d6babcf566598.mp4",
+    "static/media/hehe.mp4": "/static/media/hehe.6739aa5acaacf839b558.mp4",
     "static/media/mm16z.png": "/static/media/mm16z.dba91cbfa807604318dd.png",
+    "static/media/project1.png": "/static/media/project1.5adacade36a47ecfd9fd.png",
     "static/media/galaxy.png": "/static/media/galaxy.b44dfa070bbdd2e0b932.png",
     "static/media/fullmoonglow.png": "/static/media/fullmoonglow.3b93f02485b09508ddf0.png",
     "static/media/frame-bg1.png": "/static/media/frame-bg1.cfeed5afcaa6a2a29a38.png",
@@ -17,12 +18,12 @@
     "static/media/twitterlogo.png": "/static/media/twitterlogo.f963dcac51d5020e10f3.png",
     "static/media/aquarius.png": "/static/media/aquarius.6516a1f1c25a414c3ac5.png",
     "index.html": "/index.html",
-    "main.611d2698.css.map": "/static/css/main.611d2698.css.map",
-    "main.61f8d6e9.js.map": "/static/js/main.61f8d6e9.js.map",
+    "main.ea797298.css.map": "/static/css/main.ea797298.css.map",
+    "main.8ef76726.js.map": "/static/js/main.8ef76726.js.map",
     "787.928e177b.chunk.js.map": "/static/js/787.928e177b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.611d2698.css",
-    "static/js/main.61f8d6e9.js"
+    "static/css/main.ea797298.css",
+    "static/js/main.8ef76726.js"
   ]
 }
