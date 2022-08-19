@@ -2,7 +2,6 @@
   position: absolute;
   width: 100%;
   height: 100%;
-
 }
 
 .Images-Container {
@@ -25,9 +24,9 @@
   z-index: 300;
 }
 
-.Texts-Container {
+.Aboutme-Texts-Container {
   z-index: 8;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 }

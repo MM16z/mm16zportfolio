@@ -48,7 +48,6 @@ function AboutmeTexts() {
       <div className="rightpanel">
         <span id="works">
           <p id="worktxtsId1">WORKS</p>
-          <p id="worktxtsId2">Incomimg....</p>
           <p id="workref">
             <span id="checkoutbio">Checkout my other work!</span>
             <p style={{ paddingTop: "2vw" }}>

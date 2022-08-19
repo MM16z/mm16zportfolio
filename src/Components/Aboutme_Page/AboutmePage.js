@@ -15,13 +15,12 @@ function AboutmePage() {
       animate={{ x: "0%", transition: { duration: 3 } }}
       exit={{ x: "100%", transition: { duration: 3, ease: "easeOut" } }}
     >
-      <div className="Texts-Container">
+      <div className="Aboutme-Texts-Container">
         <AboutmeTexts />
       </div>
       <div className="Images-Container">
         <AboutmeImages />
       </div>
-
       <AboutmeBackground />
     </motion.div>
   );

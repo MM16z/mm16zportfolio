@@ -31,7 +31,7 @@ function App() {
         <CustomCursor ref={circleRef} />
         <Navmenu />
         <img
-          id="fkingcenter"
+          id="center"
           src={require("./images/center.png")}
           draggable="false"
         ></img>
