@@ -31,7 +31,7 @@ function AboutmeTexts() {
         <p id="worktxtsId5">
           <p id="worktxtsId5-1">Skills</p>
           <p id="worktxtsId5-2">
-            Html5 ,Css ,Javascript ,ReactJs // AdobeXD ,Git ,Github
+            Html5 ,Css ,Javascript ,ReactJs ,NodeJs // AdobeXD ,Git ,Github
           </p>
           <p id="worktxtsId5-3">
             <p id="worktxtsId5-3-1">Intermediate</p>
