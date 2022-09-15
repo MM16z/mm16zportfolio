@@ -1,29 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bc91817.css",
-    "main.js": "/static/js/main.4ec96dc3.js",
+    "main.css": "/static/css/main.243c33d1.css",
+    "main.js": "/static/js/main.2068ab86.js",
     "static/js/787.928e177b.chunk.js": "/static/js/787.928e177b.chunk.js",
     "static/media/hehe.mp4": "/static/media/hehe.6739aa5acaacf839b558.mp4",
     "static/media/mm16z.png": "/static/media/mm16z.dba91cbfa807604318dd.png",
     "static/media/project1.png": "/static/media/project1.eb635866dc5f15a18379.png",
+    "static/media/webshowcase2.png": "/static/media/webshowcase2.fdc478c26e93bf84629a.png",
     "static/media/galaxy.png": "/static/media/galaxy.b44dfa070bbdd2e0b932.png",
     "static/media/fullmoonglow.png": "/static/media/fullmoonglow.3b93f02485b09508ddf0.png",
     "static/media/frame-bg1.png": "/static/media/frame-bg1.cfeed5afcaa6a2a29a38.png",
+    "static/media/vscodeicon.png": "/static/media/vscodeicon.e66400756ccbdbfc0b31.png",
     "static/media/gameboybymm16z.png": "/static/media/gameboybymm16z.6cf4135cbe412544fd18.png",
     "static/media/frame-bg1-mobile.png": "/static/media/frame-bg1-mobile.b1379f23c1a22b9ba9c8.png",
     "static/media/centerline.png": "/static/media/centerline.3cd688efc811e418bbb1.png",
+    "static/media/reacticon.png": "/static/media/reacticon.35639ed930462bfcd544.png",
     "static/media/txtsbg2.png": "/static/media/txtsbg2.fbb0593a3e2556a06740.png",
+    "static/media/webshowcase3.png": "/static/media/webshowcase3.7093170d4d7f45b7344d.png",
+    "static/media/expressicon.png": "/static/media/expressicon.375eee7619857b2ae37a.png",
     "static/media/myTAlogo.png": "/static/media/myTAlogo.03eb158e2871f792582a.png",
     "static/media/centerline-mobile.png": "/static/media/centerline-mobile.2d3a4b25183a75f4dc52.png",
     "static/media/twitterlogo.png": "/static/media/twitterlogo.f963dcac51d5020e10f3.png",
+    "static/media/cssicon.png": "/static/media/cssicon.29013fe635e1a5441f11.png",
     "static/media/aquarius.png": "/static/media/aquarius.6516a1f1c25a414c3ac5.png",
+    "static/media/nodeicon.png": "/static/media/nodeicon.9493a7030123ccb59d91.png",
+    "static/media/fluttericon.png": "/static/media/fluttericon.d859c899a5029aaae52f.png",
+    "static/media/jsicon.png": "/static/media/jsicon.3dfb665e058d08c99f28.png",
+    "static/media/htmlicon.png": "/static/media/htmlicon.485b6e20561ff56f5e38.png",
     "index.html": "/index.html",
-    "main.9bc91817.css.map": "/static/css/main.9bc91817.css.map",
-    "main.4ec96dc3.js.map": "/static/js/main.4ec96dc3.js.map",
+    "main.243c33d1.css.map": "/static/css/main.243c33d1.css.map",
+    "main.2068ab86.js.map": "/static/js/main.2068ab86.js.map",
     "787.928e177b.chunk.js.map": "/static/js/787.928e177b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bc91817.css",
-    "static/js/main.4ec96dc3.js"
+    "static/css/main.243c33d1.css",
+    "static/js/main.2068ab86.js"
   ]
 }

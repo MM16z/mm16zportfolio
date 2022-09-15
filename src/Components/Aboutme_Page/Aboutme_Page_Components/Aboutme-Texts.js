@@ -31,7 +31,8 @@ function AboutmeTexts() {
         <p id="worktxtsId5">
           <p id="worktxtsId5-1">Skills</p>
           <p id="worktxtsId5-2">
-            Html5 ,Css ,Javascript ,ReactJs ,NodeJs // AdobeXD ,Git ,Github
+            Html5 ,Css ,Javascript ,ReactJs ,
+            <p>NodeJs ,ExpressJs, Mysql // AdobeXD ,Git ,Github</p>
           </p>
           <p id="worktxtsId5-3">
             <p id="worktxtsId5-3-1">Intermediate</p>
@@ -48,6 +49,9 @@ function AboutmeTexts() {
       <div className="rightpanel">
         <span id="works">
           <p id="worktxtsId1">WORKS</p>
+          <span id="mywork1">Landing page/</span>
+          <span id="mywork2">CRUD react+nodejs<br></br>+express+mysql/</span>
+          <span id="mywork3">Web full animated/</span>
           <p id="workref">
             <span id="checkoutbio">Checkout my other work!</span>
             <p style={{ paddingTop: "2vw" }}>

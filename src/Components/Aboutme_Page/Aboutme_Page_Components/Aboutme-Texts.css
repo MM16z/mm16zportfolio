@@ -50,6 +50,7 @@
   display: inline-block;
   top: 5.5vw;
   left: 23.5vw;
+  pointer-events: none;
 }
 
 #worktxtsId5 {
@@ -82,7 +83,7 @@
 #worktxtsId5-3 {
   position: absolute;
   font-size: "";
-  top: 22.5vw;
+  top: 23.5vw;
   left: 21.5vw;
 }
 
@@ -117,13 +118,32 @@
   color: white;
 }
 
+#mywork1 {
+  position: absolute;
+  top: 6.5vw;
+  left: 52.5vw;
+  font-size: 1vw;
+}
+#mywork2 {
+  position: absolute;
+  top: 14.5vw;
+  left: 67vw;
+  font-size: 1vw;
+}
+#mywork3 {
+  position: absolute;
+  top: 6.5vw;
+  left: 80.5vw;
+  font-size: 1vw;
+}
+
 @media screen and (min-width: 0px) and (max-width: 800px) {
   #worktxtsId5-2 {
     font-size: 0vw;
   }
 
   #worktxtsId5-2::after {
-    content: "Html5 ,Css ,Javascript ,ReactJs ,NodeJs\a // AdobeXD ,Git ,Github";
+    content: "Html5 ,Css ,Javascript ,ReactJs ,NodeJs\a ,ExpressJs, Mysql // AdobeXD ,Git ,Github";
     position: absolute;
     font-size: 0.9vw;
     display: block;
@@ -317,9 +337,43 @@
     top: 7.5vw;
     left: 23.5vw;
   }
+  #mywork1 {
+    position: absolute;
+    top: 8vw;
+    left: 54.5vw;
+    font-size: 1vw;
+  }
+  #mywork2 {
+    position: absolute;
+    top: 15vh;
+    left: 75vw;
+    font-size: 1vw;
+  }
+  #mywork3 {
+    position: absolute;
+    top: 27.5vh;
+    left: 74.5vw;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 899px) {
+  #mywork1 {
+    position: absolute;
+    top: 9vw;
+    left: 54.5vw;
+    font-size: 1vw;
+  }
+  #mywork2 {
+    position: absolute;
+    top: 25vh;
+    left: 64vw;
+    font-size: 1vw;
+  }
+  #mywork3 {
+    position: absolute;
+    top: 42.5vh;
+    left: 74.5vw;
+  }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1439px) {
