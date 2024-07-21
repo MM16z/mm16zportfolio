@@ -65,13 +65,26 @@ function MainpageTexts() {
             </span>
           </p>
           <p style={{ left: "-5vw" }}>
-            I love/interest in web,art,music,graphic,games {"=>"} Design ;)
+            I love/interest in website developer, game developer
           </p>
           <p style={{ left: "2.3vw", top: "0.3vw" }}>Based in Thailand , Nan</p>
           <p id="checkout">
             In the upper right corner there is a button about something?. Maybe
             you should try exploring?!
           </p>
+        </p>
+        <p
+          id="txtsId16"
+          style={{
+            left: "-5vw",
+            top: "22vw",
+            fontSize: "1.15vw",
+            margin: 0,
+            position: "absolute",
+          }}
+        >
+          CLICK ON <span style={{ color: "cyan" }}>ME!?</span> (RIGHT SIDE) FOR
+          MORE INFOMATION :) {"=>"}
         </p>
       </div>
       <p id="lorem">

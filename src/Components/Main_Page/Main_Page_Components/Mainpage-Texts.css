@@ -636,6 +636,12 @@
     position: relative;
   }
 
+  #txtsId16 {
+    font-size: 2.5vw !important;
+    top: 70vw !important;
+    margin-left: 3.2vw !important;
+  }
+
   #txtsId5::after {
     margin-top: -6.5vw;
   }
@@ -654,7 +660,6 @@
     font-size: 2.3vw;
     opacity: 0.8;
   }
-
 }
 
 @media screen and (min-width: 425px) and (max-width: 499px) {

@@ -8,7 +8,7 @@ function AboutmeTexts() {
         <p id="worktxtsId3">TATAPON AUYANA</p>
         <p id="worktxtsId4">
           <p>
-            ?age {"=>"} 23
+            ?age {"=>"} 25
             <span
               style={{
                 fontSize: "0.5px",
@@ -31,13 +31,13 @@ function AboutmeTexts() {
         <p id="worktxtsId5">
           <p id="worktxtsId5-1">Skills</p>
           <p id="worktxtsId5-2">
-            Html5 ,Css ,Javascript ,ReactJs ,
-            <p>NodeJs ,ExpressJs, Mysql // AdobeXD ,Git ,Github</p>
+            Html,Css,Javascript/TypeScript,ReactJS,NextJS,MUI
+            <p>ExpressJs,Mysql,postgreSQL // Git,Gitlab,Ubuntu</p>
           </p>
           <p id="worktxtsId5-3">
             <p id="worktxtsId5-3-1">Intermediate</p>
             <p className="txtfontvw1" id="worktxtsId5-3-2">
-              Dart ,Flutter ,Jquery, Bootstrap // Figma
+              Docker, mongoDB // Figma,Jira
             </p>
           </p>
           <p id="worktxtsId5-4">
@@ -49,8 +49,10 @@ function AboutmeTexts() {
       <div className="rightpanel">
         <span id="works">
           <p id="worktxtsId1">WORKS</p>
-          <span id="mywork1">Landing page/</span>
-          <span id="mywork2">CRUD react+nodejs<br></br>+express+mysql/</span>
+          {/* <span id="mywork1">Landing page/</span> */}
+          <span id="mywork2">
+            Fullstack next+express.js<br></br>+postgreSQL
+          </span>
           <span id="mywork3">Web full animated/</span>
           <p id="workref">
             <span id="checkoutbio">Checkout my other work!</span>
