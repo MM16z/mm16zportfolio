@@ -8,12 +8,6 @@
   white-space: nowrap;
 }
 
-#ytembed {
-  position: relative;
-  width: 10vw;
-  height: 5vw;
-}
-
 #works {
   position: absolute;
 }
@@ -75,8 +69,8 @@
 
 #worktxtsId5-2 {
   position: absolute;
-  font-size: 0.9vw;
-  top: 20vw;
+  font-size: 0.8vw;
+  top: 20.2vw;
   left: 21.5vw;
 }
 
@@ -99,23 +93,36 @@
 #worktxtsId5-4 {
   position: absolute;
   font-size: 2.3vw;
-  top: 29vw;
+  top: 32vw;
   left: 21.5vw;
+}
+
+#worktxtsId6 {
+  position: absolute;
+  top: 28.2vw;
+  left: 21.5vw;
+}
+
+#worktxtsId6 p {
+  margin: 0;
+  padding: 0;
+}
+
+#worktxtsId6-1 {
+  font-size: 1.5vw;
+}
+
+#learningdate {
+  font-size: 0.8vw;
+}
+
+#worktxtsId6-2 {
+  position: absolute;
+  top: 2.2vw;
 }
 
 .txtfontvw1 {
   font-size: 0.9vw;
-}
-
-#workref {
-  font-size: 0.9vw;
-  position: absolute;
-  bottom: -90vh;
-  left: 51.2vw;
-}
-
-#workref p span a {
-  color: white;
 }
 
 #mywork1 {
@@ -143,7 +150,7 @@
   }
 
   #worktxtsId5-2::after {
-    content: "Html5 ,Css ,Javascript ,ReactJs ,NodeJs\a ,ExpressJs, Mysql // AdobeXD ,Git ,Github";
+    content: "Html5 ,Css ,Scss ,Js/Ts ,ReactJs ,NextJs\a ,Tailwind // Node ,Express ,Mysql ,Postgres\a ,Git ,Gitlab ,Docker ,Jira";
     position: absolute;
     font-size: 0.9vw;
     display: block;
@@ -156,7 +163,11 @@
   }
 
   #worktxtsId5-4 {
-    top: 32vw;
+    top: 35vw;
+  }
+
+  #worktxtsId6 {
+    top: 30.8vw;
   }
 }
 
@@ -218,7 +229,7 @@
   }
 
   #worktxtsId5-2::after {
-    content: "Html5 ,Css ,Javascript ,ReactJs ,NodeJs\a ,Jquery // AdobeXD ,Git ,Github";
+    content: "Html5 ,Css ,Scss ,Js/Ts\a ,ReactJs ,NextJs ,Tailwind\a ,Node ,Express ,Mysql ,Postgres\a ,Git ,Gitlab ,Docker ,Jira";
     position: absolute;
     /* font-size: 0.9vw; */
     font-size: 2.4vw;
@@ -246,33 +257,37 @@
 
   #worktxtsId5-4 {
     font-size: 5vw;
-    top: 60vw;
+    top: 68vw;
     left: 21.5vw;
+  }
+
+  #worktxtsId6 {
+    top: 57vw;
+  }
+
+  #worktxtsId6-1 {
+    font-size: 3.5vw;
+    top: 2vw;
+    position: relative;
+  }
+
+  #learningdate {
+    font-size: 1.8vw;
+  }
+
+  #worktxtsId6-2 {
+    position: absolute;
+    top: 7.5vw;
   }
   .txtfontvw1 {
     /* font-size: 0.7vw; */
     font-size: 2.4vw;
-  }
-  #workref {
-    /* font-size: 0.9vw; */
-    position: fixed;
-    top: 76%;
-    left: 8.2vw;
-  }
-  #checkoutbio {
-    font-size: 2.5vw;
   }
   #aboutmebio {
     font-family: "Courier New", Courier, monospace;
     font-size: 0.7vw;
     margin-left: 42vw;
     margin-top: -30vw;
-  }
-  .workreficon {
-    font-size: 5vw;
-  }
-  .workreftexts {
-    font-size: 2.3vw;
   }
 }
 

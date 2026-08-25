@@ -69,6 +69,26 @@
   white-space: nowrap;
 }
 
+#resumeBtn {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 0.6vw;
+  color: inherit;
+  transition: 0.3s;
+}
+
+#resumeBtn svg {
+  width: 1.3em;
+  height: 1.3em;
+  margin-right: 0.3em;
+  flex-shrink: 0;
+}
+
+#resumeBtn:hover {
+  transform: translateY(-0.4vh) rotate(10deg);
+}
+
 #bg-item3:hover,
 #bg-item4:hover,
 #bg-item5:hover,

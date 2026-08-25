@@ -457,23 +457,22 @@
   font-family: "Orbitron", sans-serif;
   color: red;
   display: inline-block;
-  font-size: 4vh;
-  margin-top: -1.9vh;
+  font-size: 2vh;
+  margin-top: -0.8vh;
   position: relative;
-  top: 0.7vh;
-  left: 3.5vh;
+  top: 0.3vh;
 }
 
 #questionmark {
   position: absolute;
   transform: rotate(80deg);
   top: -0.5vh;
-  font-size: 4vh;
+  font-size: 2vh;
 }
 
 #icon01 {
-  width: 3hh;
-  height: 3vh;
+  width: auto;
+  height: 1.5vh;
 }
 
 #txtsId13::before {

@@ -6,11 +6,14 @@ import MainPageImages from "./Main_Page_Components/Mainpage-Images";
 import Navmenu from "../Navmenu/navs";
 import { motion } from "framer-motion";
 import AboutmePage from "../../Components/Aboutme_Page/AboutmePage";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import MainpageTexts from "./Main_Page_Components/Mainpage-Texts";
+
+let hasAutoRedirected = false;
 
 function MainPage() {
   const fullmoonBGRef = useRef(null);
+  const navigate = useNavigate();
 
   // const [myInfoData, setmyInfoData] = useState([]);
   // const myInfoApi = async () => {
@@ -23,7 +26,12 @@ function MainPage() {
     // myInfoApi();
   }, []);
 
-  useEffect(() => {});
+  useEffect(() => {
+    if (hasAutoRedirected) return;
+    hasAutoRedirected = true;
+    const timer = setTimeout(() => navigate("/aboutme"), 5000);
+    return () => clearTimeout(timer);
+  }, [navigate]);
 
   return (
     <motion.div

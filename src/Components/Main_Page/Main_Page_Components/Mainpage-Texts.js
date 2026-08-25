@@ -52,17 +52,7 @@ function MainpageTexts() {
         <p id="txtsId14">you! :)</p>
         <p id="txtsId15">
           <p style={{ marginLeft: "-1vw" }}>
-            Hi again, My name is Tatpon Auyana,
-          </p>
-          <p>
-            I'm a junior <span id="questionmark">?</span>{" "}
-            <span id="Sharpletter">
-              #
-              <img
-                id="icon01"
-                src={require("../../../images/icon01.png")}
-              ></img>
-            </span>
+            Hi again, My name is Tatapon Auyana,
           </p>
           <p style={{ left: "-5vw" }}>
             I love/interest in website developer, game developer
@@ -83,8 +73,16 @@ function MainpageTexts() {
             position: "absolute",
           }}
         >
-          CLICK ON <span style={{ color: "cyan" }}>ME!?</span> (RIGHT SIDE) FOR
-          MORE INFOMATION :) {"=>"}
+          CLICK ON <span style={{ color: "cyan" }}>ME!?</span>{" "}
+          <span id="questionmark">?</span>{" "}
+          <span id="Sharpletter">
+            #
+            <img
+              id="icon01"
+              src={require("../../../images/icon01.png")}
+            ></img>
+          </span>{" "}
+          (RIGHT SIDE) FOR MORE INFOMATION :) {"=>"}
         </p>
       </div>
       <p id="lorem">
